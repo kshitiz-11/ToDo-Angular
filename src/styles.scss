@@ -1,0 +1,54 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    margin: 0;
+    background: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+#container {
+   
+
+   #content {
+    margin-left: 37px;
+
+       ul {
+           list-style-type: none;
+           margin:0;padding:0;
+       
+           li {
+            //    background: #fff;
+            //    border-radius: 8px;
+            //    padding: 20px;
+            //    margin-bottom: 8px;
+
+               img {
+                
+                
+                float: left;
+                margin-left: 10px;  
+                border-radius: 50%;
+                margin-top: 24px;
+              }   
+       
+              #title {
+                   font-size: 1.5em;
+                   text-decoration: none;
+                   font-weight: bold;
+                   color: black;
+               }
+       
+               ul {
+                   margin-top: 0px;
+                   margin-left: 60px;
+                   li {
+                       padding:0;
+                      
+                       
+                   }
+               }
+           }
+       }
+   }
+}
