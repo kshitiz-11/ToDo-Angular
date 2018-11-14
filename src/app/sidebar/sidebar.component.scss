@@ -1,0 +1,231 @@
+
+  
+  ul {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    li{
+        color: white;
+    }
+    }
+
+.navbarli {
+    float: left;
+    background-color: red;
+}
+
+.user
+{
+
+ float: right; 
+ display: block;
+        color: #666;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Comic Sans MS;  
+        color: white;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color: red;
+} 
+
+// nav {
+//     background: white;
+//     height: 100%;
+//     border-radius: 8px;
+//     padding: 20px;
+//     margin-left: 5px;
+//     margin-top: 5px;
+//     input {
+//         list-style-type: none;
+//         padding: 0;
+//         margin-top: 10px; 
+//     }
+//     p {
+//         font-family: Lato;
+//       }
+//       /* The container */
+//       .container {
+//           display: block;
+//           position: relative;
+//           padding-left: 27px;
+//           cursor: pointer;
+//           font-size: 16px;
+//           -webkit-user-select: none;
+//           -moz-user-select: none;
+//           -ms-user-select: none;
+//           user-select: none;
+//           margin-bottom: 10px;
+//           padding-top: 1px;
+//       }
+      
+//       /* Hide the browser's default checkbox */
+//       .container input {
+//           position: absolute;
+//           opacity: 0;
+//           cursor: pointer;
+//       }
+      
+//       /* Create a custom checkbox */
+//       .checkmark {
+//           position: absolute;
+//           top: 0;
+//           left: 0;
+//           height: 17px;
+//           width: 17px;
+//           background-color: white;
+//           border: 1px solid #eee;
+          
+//       }
+      
+//       /* On mouse-over, add a grey background color */
+//       .container:hover input ~ .checkmark {
+//           background-color: #ccc;
+//       }
+      
+//       /* When the checkbox is checked, add a blue background */
+//       .container input:checked ~ .checkmark {
+//           background-color: #2196F3;
+//       }
+      
+
+    
+//       /* Create the checkmark/indicator (hidden when not checked) */
+//       .checkmark:after {
+//           content: "";
+//           position: absolute;
+//           display: none;
+//       }
+      
+//       /* Show the checkmark when checked */
+//       .container input:checked ~ .checkmark:after {
+//           display: block;
+//       }
+      
+//       /* Style the checkmark/indicator */
+//       .container .checkmark:after {
+//         left: 4px;
+//         top: 1px;
+//         width: 5px;
+//         height: 9px;
+//           border: solid white;
+          
+//           border-width: 0 3px 3px 0;
+//           -webkit-transform: rotate(45deg);
+//           -ms-transform: rotate(45deg);
+//           transform: rotate(45deg);
+//       }
+
+   
+//     hr{
+//         border-color: #F2F2F2;
+//         border-width: 2px;
+//         margin-left: -20px;
+//         margin-right: -20px;
+//     }
+//     mat-checkbox.md-checked.green .md-icon {
+//         background-color: rgba(0, 255, 0, 0.87);
+//        }
+//     button{
+//         margin: 3px;
+//         border-radius: 25px;
+//         font-size: 16px;
+        
+//     }
+
+//     .containerRadio {
+//         display: block;
+//         position: relative;
+//         padding-left: 27px;
+//         cursor: pointer;
+//         font-size: 16px;
+//         -webkit-user-select: none;
+//         -moz-user-select: none;
+//         -ms-user-select: none;
+//         user-select: none;
+//         margin-bottom: 3px;
+//         padding-top: 1px;
+//     }
+    
+//     /* Hide the browser's default checkbox */
+//     .containerRadio input {
+//         position: absolute;
+//         opacity: 0;
+//         cursor: pointer;
+//     }
+    
+//     /* Create a custom checkbox */
+//     .checkmark1 {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         height: 17px;
+//         width: 17px;
+//         background-color: white;
+//         border: 1px solid #eee;
+//         border-radius: 50%;
+        
+//     }
+    
+//     /* On mouse-over, add a grey background color */
+//     .containerRadio:hover input ~ .checkmark1 {
+//         background-color: #ccc;
+//     }
+    
+//     /* When the checkbox is checked, add a blue background */
+//     .containerRadio input:checked ~ .checkmark1 {
+//         background-color: #2196F3;
+//     }
+    
+
+  
+//     /* Create the checkmark/indicator (hidden when not checked) */
+//     .checkmark1:after {
+//         content: "";
+//         position: absolute;
+//         display: none;
+//     }
+    
+//     /* Show the checkmark when checked */
+//     .containerRadio input:checked ~ .checkmark1:after {
+//         display: block;
+//     }
+    
+//     /* Style the checkmark/indicator */
+//     .containerRadio .checkmark1:after {
+//       left: 4px;
+//       top: 1px;
+//       width: 5px;
+//       height: 9px;
+//         border: solid white;
+        
+//         border-width: 0 3px 3px 0;
+//         -webkit-transform: rotate(45deg);
+//         -ms-transform: rotate(45deg);
+//         transform: rotate(45deg);
+//     }
+//     .default-color
+//     {
+//         background-color: #2196F3;
+
+//     }
+    
+// }
