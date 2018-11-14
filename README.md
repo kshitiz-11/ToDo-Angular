@@ -1,4 +1,10 @@
-# IOT
+# Todo List Application using Angular 6
+
+1. This web application provides the user the ability to see a navigation bar with todo application name and username.
+
+2. The user will also be able to see default todo list items loaded from a json file asynchronously. This json file has multiple todo list objects. Each object has title, todo item, author and date properties.
+
+3. The user can also create new todo item using an input area. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
@@ -6,21 +12,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
