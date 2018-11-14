@@ -37,6 +37,11 @@ export class UsersComponent implements OnInit {
        // alert();
         let input = e.target.parentElement.getElementsByClassName('taskInput');
         let input1 = input[0].value;
+        if(input1=='')
+        {
+          alert('Please enter some value');
+          return;
+        }
         task.id = ++x.taskId;
         task.name = input1;
         x.taskList.push(task);
@@ -72,6 +77,30 @@ export class UsersComponent implements OnInit {
         e.target.parentElement.parentElement.style.display='none';
         
       }
+    }
+
+  }
+
+  // evt.target.classList.toggle("strike");
+
+  strikeTask(e)
+  {
+    //alert('hi');
+    for(let x of this.list)
+    {
+     // alert(e.target.parentElement.parentElement.id);
+    
+        if(x.id==e.target.parentElement.parentElement.parentElement.id)
+        {
+  
+          for(let z of x.taskList)
+        {
+          if(z.id==e.target.id)
+          {
+            e.target.classList.toggle('strike'); 
+          }
+        }
+        }
     }
 
   }

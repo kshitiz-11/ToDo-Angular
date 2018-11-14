@@ -1,109 +1,97 @@
 
-.authorDiv
-{
-    display: inline;
-    float: right;
 
-    /* margin-left: 23px; */
 
+
+body {
+  background-color: #f3f3f3;
+  margin: 0px;
+  font-family: Comic Sans MS;
 }
 
+.containers {
+  border: 1px solid black;
 
-.dateauthor
-{
-    /* position: absolute; */
-    bottom: 0;
-    margin-top: 10px;
-}
+  min-height: 15%;
+  float: left;
+  margin-top: 40px;
+  background-color: white;
+  margin-right: 20px;
+  font-family: Comic Sans MS;
+  font-size: large;
+  padding: 10px;
+  position: relative;
+  box-shadow: 10px 10px grey;
 
-body{
-
-    background-color: #f3f3f3;
-    margin: 0px;
-    font-family: Comic Sans MS;
-}
-
-.containers{
-    border: 1px solid black;
-   
-    min-height: 15%;
-    float: left;
-    margin-top: 40px;
-    background-color: white;
-    margin-right: 20px;
-    font-family: Comic Sans MS;
-    font-size: large;
-    padding: 10px;
-    position: relative;
-    box-shadow: 10px 10px grey;
-    
-}
-
-.spanParent{
-    background-color: white;
-    font-family: Comic Sans MS;
-    font-size: large;
-    margin-bottom: 20px;
-    
-}
-
-.strike{
-    text-decoration: line-through;
-    background-color: gainsboro;
-}
-
-
-
-
-
-.textDiv
-{
-
-margin-bottom: 7px;
-
-}
-
-.taskInput
-{
+  .textDiv {
+    margin-bottom: 7px;
+  }
+  
+  .taskInput {
     border: 1px solid #e7e7e7;
     height: 30px;
     font-size: large;
     width: 84%;
     border-radius: 20px;
     outline: none;
+  }
+
+  .dateauthor {
+    /* position: absolute; */
+    bottom: 0;
+    margin-top: 10px;
+    .authorDiv {
+      display: inline;
+      float: right;
+    
+      /* margin-left: 23px; */
+    }
+  }
+
+  .fa-plus:before {
+    margin-left: 17px;
+  }
+  
+
+  .spanParent {
+    background-color: white;
+    font-family: Comic Sans MS;
+    font-size: large;
+    margin-bottom: 20px;
+    .list {
+      list-style: none;
+      border: 1px solid #e7e7e7;
+      padding: 2px;
+      margin: 4px 0px 7px 4px;
      
+    }
+  }
+
 }
 
+
+
+.strike {
+  text-decoration: line-through;
+  background-color: gainsboro;
+}
+
+
+
 .button {
-    background-color: DodgerBlue;
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    font-size: 16px;
-    cursor: pointer;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: RoyalBlue;
+  background-color: RoyalBlue;
 }
 
-.list{
-    list-style: none;
-    border: 1px solid #e7e7e7;
-    padding: 2px;
-    margin: 4px 0px 7px 4px;
-}
-
-.material-icons{
+.material-icons {
     float: right;
     margin: 1px;
     color: red;
-}
-
-.material-icons:hover{
-    cursor: hand;
-}
-
-.fa-plus:before{
-    margin-left: 17px;
-}
+  }

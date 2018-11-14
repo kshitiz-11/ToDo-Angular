@@ -10,7 +10,7 @@
   </div>
   <div class="spanParent">
     <ul class="uList">
-      <li class="list" *ngFor="let tasks of t.taskList" id={{tasks.id}}>{{ tasks.name }}<i class="material-icons"
+      <li class="list" *ngFor="let tasks of t.taskList" id={{tasks.id}} (click)="strikeTask($event)">{{ tasks.name }}<i class="material-icons"
           (click)="closeTask($event)">delete</i></li>
 
     </ul>

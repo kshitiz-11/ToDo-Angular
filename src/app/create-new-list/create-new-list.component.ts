@@ -11,8 +11,24 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
   jData: boolean = false;
   public inputTitle = '';
   public id = 0;
-  users$: Object = null;
+  users$: any;
   addToDo(): void {
+    
+  //let title = document.getElementById('titlex');
+  //let titleText = document.createTextNode(title.nodeValue);
+  //alert(titleText);
+  if(this.inputTitle=='')
+ {
+
+     alert('empty');
+     return;
+   }
+
+    let today = new Date();
+    let dd = today.getDate();
+    let mm = today.getMonth()+1;
+    let yyyy = today.getFullYear();
+    let datenew = mm + '/' + dd + '/' + yyyy;
     let list = {
       id: 0,
       taskId: 0,
@@ -24,18 +40,20 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
     this.id++;
     list.id = this.id;
     list.taskId = 0;
-    list.date = 'Wednesday';
+    list.date = datenew;
     list.title = this.inputTitle;
     list.author = 'Not Really';
     this.dataService.addListItems(list);
 
-   // alert(list.title);
+    // alert(list.title);
 
   }
 
 
   dTransfer() {
-    for (let x of this.users$) {
+    for (let x of this.users$) 
+    {
+
       let list = {
         id: 0,
         taskId: 0,
@@ -50,7 +68,7 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
         let taskItems = {
           id: 0,
           name: ''
-        }
+        };
 
         taskItems.id = ++pId;
         taskItems.name = y;
@@ -71,7 +89,7 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
   constructor(public dataService: DataService) { }
   ngAfterViewChecked() {
 
-    if (this.users$ !== null && this.jData == false) {
+    if (this.users$.length !==0  && this.jData === false) {
       this.dTransfer();
       this.jData = true;
 

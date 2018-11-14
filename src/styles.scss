@@ -12,6 +12,9 @@ body {
 
    #content {
     margin-left: 37px;
+    .material-icons:hover {
+        cursor: hand;
+      }
 
        ul {
            list-style-type: none;
