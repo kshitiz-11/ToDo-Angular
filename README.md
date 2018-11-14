@@ -4,7 +4,7 @@
 
 2. The user will also be able to see default todo list items loaded from a json file asynchronously. This json file has multiple todo list objects. Each object has title, todo item, author and date properties.
 
-3. The user can also create new todo item using an input area. 
+3. The user can also create new todo list where the user will enter tasks. Once the task is finished, the user also has the functionality to click on that task which will give a strikethrough text-decoration effect signifying that the task is now complete. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.2.
 
