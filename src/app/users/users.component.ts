@@ -45,6 +45,7 @@ export class UsersComponent implements OnInit {
         task.id = ++x.taskId;
         task.name = input1;
         x.taskList.push(task);
+        e.target.parentElement.children[1].value='';
       }
 
     }

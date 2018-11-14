@@ -20,7 +20,7 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
   if(this.inputTitle=='')
  {
 
-     alert('empty');
+     alert('Please provide an input');
      return;
    }
 
@@ -44,7 +44,7 @@ export class CreateNewListComponent implements OnInit, AfterViewChecked {
     list.title = this.inputTitle;
     list.author = 'Not Really';
     this.dataService.addListItems(list);
-
+    this.inputTitle = '';
     // alert(list.title);
 
   }
